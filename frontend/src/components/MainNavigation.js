@@ -12,6 +12,7 @@ function MainNavigation() {
 								isActive ? classes.active : null
 							}
 							to="/"
+							end
 						>
 							Home
 						</NavLink>
