@@ -38,6 +38,7 @@ const router = createBrowserRouter([
 								index: true,
 								element: <EventDetailPage />,
 								action: deleteAction,
+								loader: eventLoader,
 							},
 							{
 								path: "edit",
