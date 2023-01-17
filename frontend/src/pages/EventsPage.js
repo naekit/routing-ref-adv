@@ -2,7 +2,11 @@ import { useLoaderData } from "react-router-dom"
 import EventsList from "../components/EventsList"
 
 function EventsPage() {
-	const fetchedEvents = useLoaderData()
+	const data = useLoaderData()
+	if (data.hasError) {
+		return <p>{data.message}</p>
+	}
+	const fetchedEvents = data.events
 
 	return (
 		<>
@@ -18,8 +22,9 @@ export async function loader() {
 
 	if (!response.ok) {
 		// error state
+		// return { hasError: true, message: "Failed fetching from filesystem." }
+		throw { message: "Failed fetching from filesystem." }
 	} else {
-		const resData = await response.json()
-		return resData.events
+		return response
 	}
 }
