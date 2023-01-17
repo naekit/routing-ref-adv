@@ -10,6 +10,7 @@
 	border: 1px solid var(--color-gray-300);
 	border-radius: 3px;
 	border-right: none;
+	color: white;
 }
 
 .newsletter button {
