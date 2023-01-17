@@ -1,5 +1,5 @@
 import React from "react"
-import { json, useNavigate } from "react-router-dom"
+import { json, redirect } from "react-router-dom"
 import EventForm from "../components/EventForm"
 
 const NewEventPage = () => {
@@ -32,5 +32,6 @@ export async function newEventAction({ request, params }) {
 	if (!res.ok) {
 		throw json({ message: "Could not save event" }, { status: 500 })
 	}
-	console.log(res)
+
+	return redirect("/events")
 }
