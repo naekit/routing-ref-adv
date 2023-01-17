@@ -23,7 +23,10 @@ export async function loader() {
 	if (!response.ok) {
 		// error state
 		// return { hasError: true, message: "Failed fetching from filesystem." }
-		throw { message: "Failed fetching from filesystem." }
+		throw new Response(
+			JSON.stringify({ message: "Could not fetch events." }),
+			{ status: 500 }
+		)
 	} else {
 		return response
 	}
