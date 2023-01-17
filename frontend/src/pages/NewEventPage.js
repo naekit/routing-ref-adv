@@ -29,6 +29,10 @@ export async function newEventAction({ request, params }) {
 		body: JSON.stringify(eventData),
 	})
 
+	if (res.status === 422) {
+		return res
+	}
+
 	if (!res.ok) {
 		throw json({ message: "Could not save event" }, { status: 500 })
 	}

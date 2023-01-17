@@ -1,1 +1,46 @@
-{"events":[{"title":"disable","image":"https://images.pexels.com/photos/12509057/pexels-photo-12509057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1","date":"2023-01-21","description":"submitting","id":"8b625f31-0719-4a4e-a40c-ee413c5df93f"},{"title":"Coding cocktail hour","image":"https://images.pexels.com/photos/12509057/pexels-photo-12509057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1","date":"2023-02-03","description":"come talk shop or not at all","id":"167cde78-d816-433a-8c05-80efa1eb84e3"},{"title":"Palette Cleanser","image":"https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&dpr=1","date":"2023-01-20","description":"Adfasdoon","id":"70aa4aee-9a9d-4632-a342-7336a22d43bd"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."},{"id":"e2","title":"Smarty event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."},{"id":"e3","title":"Hardy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
+{
+	"events": [
+		{
+			"title": "test",
+			"image": "https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&dpr=1",
+			"date": "2023-02-03",
+			"description": "great\n",
+			"id": "95d22044-2449-4013-91e0-f334db6f33b3"
+		},
+		{
+			"title": "Coding cocktail hour",
+			"image": "https://images.pexels.com/photos/12509057/pexels-photo-12509057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"date": "2023-02-03",
+			"description": "come talk shop or not at all",
+			"id": "167cde78-d816-433a-8c05-80efa1eb84e3"
+		},
+		{
+			"title": "Palette Cleanser",
+			"image": "https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&dpr=1",
+			"date": "2023-01-20",
+			"description": "Adfasdoon",
+			"id": "70aa4aee-9a9d-4632-a342-7336a22d43bd"
+		},
+		{
+			"id": "e1",
+			"title": "A dummy event",
+			"date": "2023-02-22",
+			"image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
+			"description": "Join this amazing event and connect with fellow developers."
+		},
+		{
+			"id": "e2",
+			"title": "Smarty event",
+			"date": "2023-02-22",
+			"image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
+			"description": "Join this amazing event and connect with fellow developers."
+		},
+		{
+			"id": "e3",
+			"title": "Hardy event",
+			"date": "2023-02-22",
+			"image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
+			"description": "Join this amazing event and connect with fellow developers."
+		}
+	]
+}
